@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garima Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Garima's Portfolio</div>
+      </nav>
+      <div class="right">
+        <ul class="list">
+          <li class="li">Home</li>
+          <li class="li">About</li>
+          <li class="li">Contact</li>
+          <li class="li">Work</li>
+        </ul>
+      </div>
+      <div class="intro">Hii everyone!!!</div>
+
+      <div class="intr">Myself <span class="garima">Garima Sharma.</span></div>
+      <div class="intro2">
+        And I'm
+        <span id="element"></span>
+      </div>
+
+      <main>
+        <section class="rightsec">
+          <img src="ginny.jpg" />
+        </section>
+
+        <section class="leftsec"></section>
+        
+
+        <section class="pg">
+          <hr>
+          <span class="what"> what have i done so far </span> 
+          <h> Work Experience </h>
+          <div class="box">
+            <p> Below are some of the projects which i've done in this summer break : </p>
+            <a class="project" href="https://garimasharmaa1011.github.io/tic-tact-toe/" >     Project 1  tic_tac_toe </a>"
+            <br>
+            <a class="project" href="https://garimasharmaa1011.github.io/currency_convrter/" >     Project 2  currency_converter</a>"
+
+            <br>
+            <a class="project" href="https://garimasharmaa1011.github.io/to_do_list/">     Project 3 to_do_list </a>"
+
+            <br>
+            <a class="project" href="https://garimasharmaa1011.github.io/Amazon__clone/">     Project 4  amazon clone </a>"
+
+           
+          </div>
+        
+        </section>
+       
+
+        <section class="hehe"></section>
+          <hr>
+          <span class="whatnot"> How to contact me </span> 
+          <h class="hw"> Contact Mee !!!!! </h>
+          <div class="boxes">
+            <p class="lor">Tap any of the below icons to contact me </p> </div>
+<a href="https://www.instagram.com/garimaa____sharmaa/"
+        <div>    <img class="insta" src="ig.webp"  alt="Clickable image"></div> 
+          </a>
+
+        <a href="https://www.linkedin.com/in/garima-sharma-ba6a84280/"
+        <div>  <img class="linkden" src="linkden.png" alt="Clickable image" ></div> 
+        </a>
+
+
+        <a href="mailto:garima1011sharma@gmail.com">
+        <div>  <img class="gmail" src="gmail.webp" alt="Clickable image" ></div> 
+        </a>
+
+
+        <a href="https://wa.me/8628875859" target="_blank">
+     <div>   <img  class="whatsapp" src="he.jpeg"  /></div>  
+        </a>
+         
+        </section>
+      </main>
+      <script>
+        var typed = new Typed("#element", {
+          strings: [
+            "<i> </i>  a frontend web development enthusiast.....",
+            "&amp;  problem solver.",
+          ],
+          typeSpeed: 50,
+        });
+        // Function to scroll to the "Work" section
+  document.querySelector(".li:nth-child(4)").addEventListener("click", function() {
+    document.querySelector(".pg").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // Function to scroll to the "Contact" section
+  document.querySelector(".li:nth-child(3)").addEventListener("click", function() {
+    document.querySelector(".hehe").scrollIntoView({ behavior: "smooth" });
+  });
+      </script>
+    </header>
+  </body>
+</html>
