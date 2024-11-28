@@ -191,8 +191,19 @@ margin-left: 150px;
     border-radius: 90%;
     
     margin-left: 1350px;
-    position: relative; /* or absolute, fixed */
+    position: relative; 
     top: -130px; 
   }
 
+  .cert-box {
+    margin: 70px;
+    padding: 20px;
+  }
+  .cert-preview {
+    width: 70%;
+    cursor: pointer;
+    border: 2px solid #db4eb1;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
   
